@@ -10,6 +10,17 @@
 using namespace std;
 
 int main() {
+	/* In case file needs to be specified by user
+	string fileName = "";
+
+	fstream file;
+
+	do {
+		if (file.fail()) { cout << "Error opening file\nPlese re-enter file name and try again"; }
+
+		cout << "Please enter file name: ";
+		getline(cin, fileName);
+	} while (file.fail());*/
 
 	// Open file
 	fstream file = fstream("forChap12.txt", ios::in);
