@@ -46,8 +46,9 @@ int main() {
 
 	// Display words
 	for (auto w : words) { cout << w << '\n'; }
-
 	cout << "\nThere are: " << words.size() << " unique words in this file.";
 
+
+	file.close();
 	return EXIT_SUCCESS;
 }
